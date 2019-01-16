@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import ExpandMore from '@material-ui/icons/ExpandMore';
+import DrilldownIcon from '../DrilldownIcon';
 import METRICS from '../../utils/bugzilla/metrics';
 
 const styles = ({
@@ -13,10 +13,6 @@ const styles = ({
   },
   metricLabel: {
     textDecoration: 'underline',
-  },
-  icon: {
-    fontSize: '1rem',
-    verticalAlign: 'bottom',
   },
 });
 
@@ -47,17 +43,14 @@ const BugzillaComponents = ({
               <tr key={label}>
                 {onComponentDetails && (
                   <td>
-                    <div
+                    <DrilldownIcon
                       name={label}
-                      onKeyPress={onComponentDetails}
-                      onClick={onComponentDetails}
-                      product={product}
-                      component={component}
-                      role="button"
-                      tabIndex="0"
-                    >
-                      <ExpandMore classes={{ root: classes.icon }} />
-                    </div>
+                      onChange={onComponentDetails}
+                      properties={{
+                        product,
+                        component,
+                      }}
+                    />
                   </td>
                 )}
                 <td>{label}</td>

@@ -26,7 +26,8 @@ exports[`renders Manager who has reportees 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="manager@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -36,7 +37,7 @@ exports[`renders Manager who has reportees 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -49,7 +50,7 @@ exports[`renders Manager who has reportees 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Manager 
         </span>
@@ -57,7 +58,8 @@ exports[`renders Manager who has reportees 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="someone@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -67,7 +69,7 @@ exports[`renders Manager who has reportees 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -80,7 +82,7 @@ exports[`renders Manager who has reportees 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Someone 
         </span>
@@ -89,7 +91,7 @@ exports[`renders Manager who has reportees 1`] = `
     <div>
       <div>
         <h3
-          className="BugzillaComponents-header-16"
+          className="BugzillaComponents-header-18"
         >
           Components
         </h3>
@@ -99,17 +101,17 @@ exports[`renders Manager who has reportees 1`] = `
               <th />
               <th />
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Untriaged
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Needinfo
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 P1s
               </th>
@@ -119,6 +121,7 @@ exports[`renders Manager who has reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: IndexedDB"
                   name="Core::DOM: IndexedDB"
                   onClick={[Function]}
@@ -129,7 +132,7 @@ exports[`renders Manager who has reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -151,6 +154,7 @@ exports[`renders Manager who has reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="JavaScript Engine"
                   name="Core::JavaScript Engine"
                   onClick={[Function]}
@@ -161,7 +165,7 @@ exports[`renders Manager who has reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -183,6 +187,7 @@ exports[`renders Manager who has reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: Core & HTML"
                   name="Core::DOM: Core & HTML"
                   onClick={[Function]}
@@ -193,7 +198,7 @@ exports[`renders Manager who has reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -212,7 +217,7 @@ exports[`renders Manager who has reportees 1`] = `
                 Core::DOM: Core & HTML
               </td>
               <td
-                className="BugzillaComponents-metric-17"
+                className="BugzillaComponents-metric-19"
               >
                 <a
                   href="https://bugzilla.mozilla.org/buglist.cgi?component=DOM%3A%20Core%20%26%20HTML&f1=bug_severity&f2=keywords&f3=resolution&limit=0&o1=notequals&o2=notsubstring&o3=isempty&product=Core&v1=enhancement&v2=meta"
@@ -224,6 +229,7 @@ exports[`renders Manager who has reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="Async Tooling"
                   name="Toolkit::Async Tooling"
                   onClick={[Function]}
@@ -234,7 +240,7 @@ exports[`renders Manager who has reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -287,7 +293,8 @@ exports[`renders Manager who has reportees and teams 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="manager@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -297,7 +304,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -310,7 +317,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Manager 
         </span>
@@ -318,7 +325,8 @@ exports[`renders Manager who has reportees and teams 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="someone@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -328,7 +336,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -341,7 +349,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Someone 
         </span>
@@ -350,7 +358,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
     <div>
       <div>
         <h3
-          className="BugzillaComponents-header-16"
+          className="BugzillaComponents-header-18"
         >
           Components
         </h3>
@@ -360,17 +368,17 @@ exports[`renders Manager who has reportees and teams 1`] = `
               <th />
               <th />
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Untriaged
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Needinfo
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 P1s
               </th>
@@ -380,6 +388,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: IndexedDB"
                   name="Core::DOM: IndexedDB"
                   onClick={[Function]}
@@ -390,7 +399,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -412,6 +421,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="JavaScript Engine"
                   name="Core::JavaScript Engine"
                   onClick={[Function]}
@@ -422,7 +432,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -444,6 +454,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: Core & HTML"
                   name="Core::DOM: Core & HTML"
                   onClick={[Function]}
@@ -454,7 +465,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -473,7 +484,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
                 Core::DOM: Core & HTML
               </td>
               <td
-                className="BugzillaComponents-metric-17"
+                className="BugzillaComponents-metric-19"
               >
                 <a
                   href="https://bugzilla.mozilla.org/buglist.cgi?component=DOM%3A%20Core%20%26%20HTML&f1=bug_severity&f2=keywords&f3=resolution&limit=0&o1=notequals&o2=notsubstring&o3=isempty&product=Core&v1=enhancement&v2=meta"
@@ -485,6 +496,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="Async Tooling"
                   name="Toolkit::Async Tooling"
                   onClick={[Function]}
@@ -495,7 +507,7 @@ exports[`renders Manager who has reportees and teams 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -548,7 +560,8 @@ exports[`renders Someone with no reportees 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="manager@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -558,7 +571,7 @@ exports[`renders Someone with no reportees 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -571,7 +584,7 @@ exports[`renders Someone with no reportees 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Manager 
         </span>
@@ -579,7 +592,8 @@ exports[`renders Someone with no reportees 1`] = `
       <div
         className="Reportees-person-6"
       >
-        <span
+        <div
+          className="DrilldownIcon-svgWrapper-7"
           name="someone@mozilla.com"
           onClick={[Function]}
           onKeyPress={[Function]}
@@ -589,7 +603,7 @@ exports[`renders Someone with no reportees 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-7 Reportees-icon-5"
+            className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
             focusable="false"
             role="presentation"
             viewBox="0 0 24 24"
@@ -602,7 +616,7 @@ exports[`renders Someone with no reportees 1`] = `
               fill="none"
             />
           </svg>
-        </span>
+        </div>
         <span>
           Someone 
         </span>
@@ -611,7 +625,7 @@ exports[`renders Someone with no reportees 1`] = `
     <div>
       <div>
         <h3
-          className="BugzillaComponents-header-16"
+          className="BugzillaComponents-header-18"
         >
           Components
         </h3>
@@ -621,17 +635,17 @@ exports[`renders Someone with no reportees 1`] = `
               <th />
               <th />
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Untriaged
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 Needinfo
               </th>
               <th
-                className="BugzillaComponents-metricLabel-18"
+                className="BugzillaComponents-metricLabel-20"
               >
                 P1s
               </th>
@@ -641,6 +655,7 @@ exports[`renders Someone with no reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: IndexedDB"
                   name="Core::DOM: IndexedDB"
                   onClick={[Function]}
@@ -651,7 +666,7 @@ exports[`renders Someone with no reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -673,6 +688,7 @@ exports[`renders Someone with no reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="JavaScript Engine"
                   name="Core::JavaScript Engine"
                   onClick={[Function]}
@@ -683,7 +699,7 @@ exports[`renders Someone with no reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -705,6 +721,7 @@ exports[`renders Someone with no reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="DOM: Core & HTML"
                   name="Core::DOM: Core & HTML"
                   onClick={[Function]}
@@ -715,7 +732,7 @@ exports[`renders Someone with no reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
@@ -734,7 +751,7 @@ exports[`renders Someone with no reportees 1`] = `
                 Core::DOM: Core & HTML
               </td>
               <td
-                className="BugzillaComponents-metric-17"
+                className="BugzillaComponents-metric-19"
               >
                 <a
                   href="https://bugzilla.mozilla.org/buglist.cgi?component=DOM%3A%20Core%20%26%20HTML&f1=bug_severity&f2=keywords&f3=resolution&limit=0&o1=notequals&o2=notsubstring&o3=isempty&product=Core&v1=enhancement&v2=meta"
@@ -746,6 +763,7 @@ exports[`renders Someone with no reportees 1`] = `
             <tr>
               <td>
                 <div
+                  className="DrilldownIcon-svgWrapper-7"
                   component="Async Tooling"
                   name="Toolkit::Async Tooling"
                   onClick={[Function]}
@@ -756,7 +774,7 @@ exports[`renders Someone with no reportees 1`] = `
                 >
                   <svg
                     aria-hidden="true"
-                    className="MuiSvgIcon-root-7 BugzillaComponents-icon-19"
+                    className="MuiSvgIcon-root-9 DrilldownIcon-icon-8"
                     focusable="false"
                     role="presentation"
                     viewBox="0 0 24 24"
